@@ -15,7 +15,7 @@
 .container-left {
     display: inline-block;
     width: 60%;
-    margin-top: 18%; /* 30%*/ 
+    margin-top: 21.5%; /* 30%*/ 
     padding-left: 136px;
 }
 
@@ -29,7 +29,7 @@
 
 img {
     position: relative;
-    top: 25%; /* Ajustar de acordo com a necessidade e tamanho da tela = 25% */
+    top: 20%; /* Ajustar de acordo com a necessidade e tamanho da tela = 25% */
     right: 130px;
 }
 
@@ -90,19 +90,21 @@ a:active {
 
 header {
     margin: 24px 0 0 57px;
+    text-align: center;
 }
 
 @media screen and (max-width: 900px){
     .container-left {
         width: 100%;
-        height: 50%;
+        height: 40%;
         padding: 0;
         margin: 0;
+        margin-top: 30%;
     }
 
     .container-right {
         display: block;
-        height: 50%; /* Original (auto) */
+        height: 60%; /* Original (auto) */
         width: 100%;
         position: static;
         padding: 40px;
